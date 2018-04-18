@@ -1,0 +1,5 @@
+.gzip
+images/*
+!images/cart.png
+!images/noimage.jpg
+!images/store.png

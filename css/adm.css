@@ -1,0 +1,136 @@
+/* STYLE CSS */
+
+/*===== Basic Styles =====*/
+.color-white {
+    color: white;
+}
+
+.min-height-400 {
+    min-height: 200px;
+}
+/*===*/
+
+/*===== Header Styles =====*/
+.site-name {
+    margin-right: 220px;
+}
+
+.user {
+    width: 200px;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.user__name {
+    margin-bottom: 10px;
+}
+
+.user__button {
+
+}
+
+.button, .button:hover, .button:focus, .button:active, .button:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+    .button:hover {
+        color: yellowgreen;
+    }
+
+.mr-10 {
+    margin-right: 10px;
+}
+/*===*/
+
+/*===== Structure Styles =====*/
+.s-main {
+    min-height: 600px;
+}
+
+.s-left {
+    width: 200px;
+    min-height: 600px;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: gray;
+    float: left;
+    border-radius: 5px;
+}
+.s-right {
+    margin-left: 220px;
+}
+/*===*/
+
+/*===== Block Styles =====*/
+.list {
+    padding: 5px 10px 5px 10px;
+    border: solid 1px black;
+}
+    .list_noborder {
+        border: solid 0px black;
+    }
+
+    .list input, .list textarea {
+        padding: 5px 10px 5px 10px;
+        border: solid 0px black;
+        border-radius: 3px;
+    }
+
+    .list textarea {
+        min-width: 250px;
+        min-height: 200px;
+    }
+
+    .list input[type="text"], .list select, .list input[type="number"] {
+        min-width: 250px;
+    }
+
+.form-container {
+    display: flex;
+    min-width: 100px;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.form {
+
+}
+
+    .form__item {
+        margin-bottom: 5px;
+    }
+
+    .form__label {
+        min-width: 150px;
+        display: inline-block;
+    }
+
+.button {
+    display: block;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+/*===*/
+
+/*===== Left-menu =====*/
+.left-nav {
+
+}
+   .left-nav__item {
+       display: block;
+       padding: 5px 10px 5px 10px;
+       margin-bottom: 10px;
+       border-radius: 5px;
+       text-align: center;
+       color: white;
+       background-color: black;
+   }
+/*===*/
+
+
